@@ -8,7 +8,7 @@
 }
 
 .text-center{
-    text-align: center
+    text-align: center;
 }
 
 div.polaroid {
@@ -19,18 +19,6 @@ div.polaroid {
   padding: 5px;
 }
 
-.portfolio .thumbnail {
-    position: relative;
-}
-
-.portfolio .thumbnail:hover {
-    cursor: pointer;
-}
-
-.portfolio .caption {
-    bottom: 0;
-    position: absolute;
-}
 div.uppercase {
     text-transform: uppercase;
 }
