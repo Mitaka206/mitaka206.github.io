@@ -20,6 +20,8 @@ html {
 body {
   margin: 0;
 }
+
+
 article,
 aside,
 details,
@@ -42,27 +44,6 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
-/*! my styles */
-.my-content{
-    margin-top: 70px
-}
-.my-content-login{
-    margin-top: 70px;
-    padding-left: 120px;
-    padding-right: 20px
-}
-
-.text-center{
-    text-align: center;
-}
-
-.bottom-corection{
-  margin-bottom: 30px
-}
-
-/*!end my style
- */
-
 audio:not([controls]) {
   display: none;
   height: 0;
