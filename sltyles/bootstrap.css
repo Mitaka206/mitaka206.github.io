@@ -42,7 +42,6 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
-
 /*! my styles */
 .my-content{
     margin-top: 70px
@@ -61,11 +60,9 @@ video {
   margin-bottom: 30px
 }
 
-div.uppercase {
-    text-transform: uppercase;
-}
 /*!end my style
  */
+
 audio:not([controls]) {
   display: none;
   height: 0;
