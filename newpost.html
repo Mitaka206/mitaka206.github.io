@@ -8,11 +8,11 @@
         <script src="scripts/bootstrap.min.js"></script>
     </head>
     <body>
-        <header>
-        <div class="navbar navbar-default navbar-fixed-top navbar-uppercase">
+        <header  style="font-size: 2em">
+        <div class="navbar navbar-default navbar-fixed-top">
             <div class="container uppercase">
                 <div class="navbar-header">
-                    <a href="index.html" class="navbar-brand">Mitaka206</a>
+                    <a href="index.html" class="navbar-brand"  style="font-size: 1.8em">Mitaka206</a>
                     <button title="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -20,62 +20,87 @@
                     </button>
                 </div>
                 <div class="navbar-collapse collapse">
-                    
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="newpost.html">Add new post</a></li>
-                        <li><a href="#">Username!</a></li>
+                        <li><a href="newpost.html"><b>Add new post</b></a></li>
                         <li><a href="index.html">Logout</a></li>
                     </ul>
                 </div>
+                <form class="navbar-form navbar-right" role="search">
+                    <div style="font-style: italic; font-size: 0.5em" >
+                        Hello<a href="#" > Username! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="submit" class="btn btn-default"><span style="font-size: 1.3em">Submit</span></button>
+                    </form>
+                    </div>
             </div>
         </div>
         </header>
 
         <main>
+            <div class="container" style="margin-top: 100px; font-size: 1.8em">
+                <div class="col-md-10">
+                    <div class="row">
+                         <div class="col-md-12">
+                                <form class="form-horizontal my-content-login">
+                                        <fieldset>
+                                            <legend>  
+                                                My new post
+                                            </legend>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="postTitle">Post Title</label>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" id="postTitle" placeholder="Post Title">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="Author">Author</label>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" id="Author" placeholder="Your Name">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-lg-4 control-label" for="Post">Post</label>
+                                                <div class="col-lg-8">
+                                                    <textarea class="form-control" rows="15" id="Post" placeholder="Write here..."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="tags">Tags</label>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" id="tags" placeholder="tag, tag1, tag2, ...">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-lg-8 col-lg-offset-4">
+                                                    <button type="reset" class="btn btn-default"><span style="font-size: 1.3em">Clear</span></button>
+                                                    <button type="submit" class="btn btn-primary pull-right"><span style="font-size: 1.3em">Upload Post</span></button>
+                                                </div>
+                                            </div>
 
-      <form class="form-horizontal my-content-login">
-            <fieldset>
-                <legend>  
-                    My new post
-                </legend>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="postTitle">Post Title</label>
-                    <div class="col-md-6">
-                        <input type="text" class="form-control" id="postTitle" placeholder="Post Title">
+                                        </fieldset>
+                                </form>
+                        </div>   
                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="Author">Author</label>
-                    <div class="col-md-6">
-                        <input type="text" class="form-control" id="Author" placeholder="Your Name">
+                    <div class="col-md-2 my-content">
+                        <div class="btn-goup-vertical text-center">
+                            <a class="list-group-item" style="color: #d9230f" href="#">test line</a>
+                            <a class="list-group-item" style="color: #d9230f" href="#">test line</a>
+                            <a class="list-group-item" style="color: #d9230f" href="#">test line</a>
+                            <a class="list-group-item" style="color: #d9230f" href="#">test line</a>
+                            <a class="list-group-item" style="color: #d9230f" href="#">test line</a>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-lg-2 control-label" for="Post">Post</label>
-                    <div class="col-lg-6">
-                        <textarea class="form-control" rows="15" id="Post" placeholder="Write here..."></textarea>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="tags">Tags</label>
-                    <div class="col-md-6">
-                        <input type="text" class="form-control" id="tags" placeholder="tag, tag1, tag2, ...">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-lg-6 col-lg-offset-2">
-                        <button type="reset" class="btn btn-default">Clear</button>
-                        <button type="submit" class="btn btn-primary pull-right">Upload Post</button>
-                    </div>
-                </div>
-                </div>
-            </fieldset>
-            </form>
+    </div>
+
         </main>
 
         <footer class="footer navbar-fixed-bottom">
             <div class="container text-center">
-                 <p class="text-muted">&copy; Power by Dimitar Todorov 2017 </p>
+                 <p class="text-muted pull-right">&copy; Dimitar Todorov 2017 </p>
             </div>
         </footer>
     </body>
